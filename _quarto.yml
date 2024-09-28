@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Following Gampopa"
+  sidebar:
+    logo: /images/buddhism-today-gampopa-cropped.png
+    style: docked  
+    collapse-level: 1
+    background: light
+  # navbar:
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
+  #     - about.qmd
+format:
+  html:
+    toc: true
+    toc-location: left
+    grid:
+      margin-width: 350px
+    theme:
+      - sandstone
+      - gampopa.scss
+    css: styles.css
+reference-location: margin
+citation-location: margin
+
+
+
+
